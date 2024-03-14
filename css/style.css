@@ -32,26 +32,52 @@ footer{
 }
 .contenitore-cards{
     display: flex;
-    
+    position: relative;
     justify-content:flex-start;
     flex-wrap: wrap;
-
 }
 .image-mountain{
+   
     height: calc(85vh / 5);
-    width: calc(100% / 7);
+    width:215px ;
     padding-left: 0.5rem;
     padding-bottom: 1rem;
-    
 }
 .box-absolute{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     position: relative;
-    
 }
 .microphone{
     color: white;
     position: absolute;
-    bottom: 0;
-
-
+    bottom: 25px;
+    left: 15px;
+}
+.simbol-footer{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.simbol-left{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding-left: 1rem;
+}
+.mute{
+    padding-right: 1rem;
+}
+.simbol-center{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding-left: 1rem;
+}
+.meeting{
+    background-color:grey;
+    color: red;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
