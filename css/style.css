@@ -1,82 +1,97 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     height: 100vh;
     width: 100%;
-    background-color:black;
+    background-color: black;
 }
-header{
+
+header {
     height: 5%;
     color: white;
 }
-main{
+
+main {
     height: 85%;
-    background-color:;
+    background-color: ;
 }
-footer{
+
+footer {
     height: 10%;
     background-color: blue;
 }
-.simboli-header{
+
+.simboli-header {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 }
-.simboli{
+
+.simboli {
     background-color: gray;
     padding-left: 10px;
-    border-radius:30px; 
+    border-radius: 30px;
 }
-.contenitore-cards{
+
+.contenitore-cards {
     display: flex;
     position: relative;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
-.image-mountain{
-   
+
+.image-mountain {
+
     height: calc(85vh / 5);
-    width:215px ;
+    width: 215px;
     padding-left: 0.5rem;
     padding-bottom: 1rem;
 }
-.box-absolute{
-    display:flex;
+
+.box-absolute {
+    display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     position: relative;
 }
-.microphone{
+
+.microphone {
     color: white;
     position: absolute;
     bottom: 25px;
     left: 15px;
 }
-.simbol-footer{
+
+.simbol-footer {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: row;
 }
-.simbol-left{
+
+.simbol-left {
     display: flex;
     justify-content: flex-start;
     color: white;
     padding-left: 1rem;
 }
-.mute{
+
+.mute {
     padding-right: 1rem;
 }
-.simbol-center{
+
+.simbol-center {
     display: flex;
     justify-content: flex-start;
     color: white;
     padding-left: 1rem;
 }
-.meeting{
-    background-color:grey;
+
+.meeting {
+    background-color: grey;
     color: red;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
